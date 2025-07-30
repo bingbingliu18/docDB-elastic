@@ -35,7 +35,7 @@ class UltraFastDocumentDBInserter:
         # DocumentDB connection configuration
         self.connection_string = "mongodb://<username>:<passwd>@<cluster-name>-<account-name>.us-east-1.docdb-elastic.amazonaws.com:27017/?tls=true&authMechanism=SCRAM-SHA-1&retryWrites=false"
         self.database_name = "test"
-        self.collection_name = "<your collection name"
+        self.collection_name = "<your collection name>"
         
         # Aggressive performance parameters
         self.num_processes = num_processes
